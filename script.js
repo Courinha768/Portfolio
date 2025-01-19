@@ -1,1 +1,0 @@
-showMoreButton('Skills')

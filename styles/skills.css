@@ -1,0 +1,22 @@
+.skills #containerSkills  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Two columns */
+    gap: 20px;
+    border-radius: 12px; /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
+}
+
+.skills #containerSkills .skill {
+    background-color: #4c566a;
+    border: 1px solid #2e3440;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skills #containerSkills .skill.hidden  {
+    display: none;
+    visibility: hidden;
+}
+
