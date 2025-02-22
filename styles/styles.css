@@ -1,8 +1,25 @@
 @import "skills.css";
 @import "title.css";
 
+@font-face {
+    font-family: "DejaVu";
+    src:
+            url("../fonts/DejaVu/DejaVuSans.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSans-Bold.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSansMono.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSansMono-Bold.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSansMono-BoldOblique.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSansMono-Oblique.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSerif.ttf") format("truetype"),
+            url("../fonts/DejaVu/DejaVuSerif-Bold.ttf") format("truetype");
+}
+
+
 body    {
+    font-family: "DejaVu", sans-serif;
     background-color: #3b4252;
     color: #d8dee9;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
